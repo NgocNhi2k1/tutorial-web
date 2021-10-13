@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Webs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="./eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME </a></li>
+                    <li><a href="AboutUs.html">ABOUT </a></li>
+                    <li><a href="Course.html">COURSE </a></li>
+                    <li><a href="blog.html">BLOG </a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1> Our Course</h1>
+    </section>
+<!--Course-->
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ispum dolor sit amet, consectetur adipscing elit.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesqe aliquet turpis nulla, eleifend faucibis
+                est sollicitudin ut. Maecenas ut venenatis ex, et purus
+                Donec sit.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesqe aliquet turpis nulla, eleifend faucibis
+                est sollicitudin ut. Maecenas ut venenatis ex, et purus
+                Donec sit.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesqe aliquet turpis nulla, eleifend faucibis
+                est sollicitudin ut. Maecenas ut venenatis ex, et purus
+                Donec sit.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+    
+    <!--Javastript for toogle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  
+   
+</body>
+
+</html>
